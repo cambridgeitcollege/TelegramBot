@@ -1,6 +1,6 @@
 # Contributing to This Project
 
-Thank you for your interest in contributing to this project! We welcome contributions from the community to make this project better.
+Thank you for your interest in contributing to this script! We welcome contributions from the community to make this Script better.
 
 ## Getting Started
 
