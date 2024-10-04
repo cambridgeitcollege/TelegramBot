@@ -1,13 +1,14 @@
+# Description: This is a simple script to send messages to a telegram channel using the Telegram Bot API and Python.
+
 import asyncio,telegram,os
 from dotenv import load_dotenv
 
 load_dotenv()
 apikey=os.getenv("BOTAPIKEY")
-chatid=os.getenv("CHATID")
+channel_id=os.getenv("CHATID")
 
 # Create a Bot Object
 bot = telegram.Bot(token=apikey)
-channel_id = chatid # Enter your Channel ID or You can add the Personal Chat ID
 
 
 # Function to send messages
