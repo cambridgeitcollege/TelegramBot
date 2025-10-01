@@ -1,2 +1,4 @@
-python-dotenv
-python-telegram-bot
+# Core dependencies
+python-dotenv==1.0.0
+python-telegram-bot==20.7
+asyncio==3.4.3

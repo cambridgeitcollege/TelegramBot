@@ -17,9 +17,12 @@ async def send_message(message):
 
 # Function to for sending the messages
 def main():
-    loop = asyncio.get_event_loop()
-    message="Testing Message from Python" # You can change the message in Here  
-    loop.run_until_complete(send_message(message))
+    try:
+        loop = asyncio.get_event_loop()
+        message="Testing Message from Python" # You can change the message in Here
+        loop.run_until_complete(send_message(message))
+    except Exception as e:
+        print(f"Error occurred: {e}")
 
 if __name__ == "__main__":
     main()
